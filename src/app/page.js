@@ -1,9 +1,17 @@
-import Image from "next/image";
+import Banner from '@/component/Banner/Banner';
+import Heroinfo from '@/component/HeroInformation/Heroinfo';
+import React from 'react';
 
-export default function Home() {
+const Home = () => {
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-     
+    <div>
+      <main className='min-h-screen px-4'>
+        <Banner></Banner>
+        <Heroinfo></Heroinfo>
+      </main>
     </div>
+
   );
-}
+};
+
+export default Home;
