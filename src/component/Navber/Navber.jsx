@@ -4,9 +4,27 @@ import { GrHomeRounded } from "react-icons/gr";
 import { FaRegClock } from "react-icons/fa";
 import { TfiStatsUp } from "react-icons/tfi";
 import Link from "next/link";
+import Mylinks from "./Mylinks";
 
 
 const Navber = () => {
+    const navItems = [
+        {
+            path: "/",
+            text: 'Home'
+        },
+        {
+            path: "/timeline",
+            text: 'Timeline'
+        },
+        {
+            path: "/stats",
+            text: 'Stats'
+        }
+    ]
+
+
+
     return (
         <div>
             <div className="navbar bg-base-100 shadow-sm">
@@ -18,9 +36,11 @@ const Navber = () => {
                         <ul
                             tabIndex="-1"
                             className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
-                            <Link href={'/'} className="btn rounded-r-none border-r-0"><GrHomeRounded></GrHomeRounded>Home</Link>
-                            <Link href={'/timeline'} className="btn rounded-r-none rounded-l-none border-r-0"><FaRegClock></FaRegClock>Timeline</Link>
-                            <Link href={'/stats'} className="btn rounded-l-none"><TfiStatsUp></TfiStatsUp>Stats</Link>
+                         {
+                            navItems.map((items, index) => (
+                                <Mylinks key={index} href = {items.path}>{items.text}</Mylinks>
+                            ))
+                         }
                         </ul>
                     </div>
                     <Link className="btn btn-ghost text-2xl" href={'/'}>
@@ -28,9 +48,11 @@ const Navber = () => {
                     </Link>
                 </div>
                 <div className="navbar-end hidden sm:flex">
-                    <Link href={'/'} className="btn rounded-r-none border-r-0"><GrHomeRounded></GrHomeRounded>Home</Link>
-                    <Link href={'/timeline'} className="btn rounded-r-none rounded-l-none border-r-0"><FaRegClock></FaRegClock>Timeline</Link>
-                    <Link href={'/stats'} className="btn rounded-l-none"><TfiStatsUp></TfiStatsUp>Stats</Link>
+                    {
+                            navItems.map((items, index) => (
+                                <Mylinks key={index} href = {items.path}>{items.text}</Mylinks>
+                            ))
+                         }
                 </div>
             </div>
         </div>

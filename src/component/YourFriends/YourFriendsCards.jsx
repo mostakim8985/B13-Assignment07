@@ -1,7 +1,8 @@
 import React from 'react';
 import Image from 'next/image';
 
-const YourFriendsCards = () => {
+const YourFriendsCards = ({items}) => {
+    console.log(items.name)
     return (
         <div>
             <div className='flex flex-col items-center justify-center shadow-md py-5 space-y-2'>
@@ -12,7 +13,7 @@ const YourFriendsCards = () => {
                         height={80}
                     />
                     <div className='flex flex-col items-center justify-center'>
-                        <h3 className='text-xl font-semibold'>Name</h3>
+                        <h3 className='text-xl font-semibold'>{items.name}</h3>
                         <span className='text-[12px] font-medium text-gray-400'>days</span>
                         <span className='badge text-[14px] font-semibold badge-error my-2'>Job status</span>
                         <span className='badge text-[14px] font-semibold badge-info'>Status</span>
