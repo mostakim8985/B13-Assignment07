@@ -1,0 +1,181 @@
+[
+    {
+        "id": 1,
+        "name": "Juwel",
+        "picture": "https://randomuser.me/api/portraits/men/1.jpg",
+        "email": "juwel@example.com",
+        "days_since_contact": 15,
+        "status": "overdue",
+        "tags": [
+            "college",
+            "close friend"
+        ],
+        "bio": "Met in university. Love hiking together.",
+        "goal": 14,
+        "next_due_date": "2025-07-20"
+    },
+    {
+        "id": 2,
+        "name": "Somun",
+        "picture": "https://randomuser.me/api/portraits/men/2.jpg",
+        "email": "somun@example.com",
+        "days_since_contact": 2,
+        "status": "on-track",
+        "tags": [
+            "office",
+            "developer"
+        ],
+        "bio": "Great team player, always reliable.",
+        "goal": 10,
+        "next_due_date": "2026-05-10"
+    },
+    {
+        "id": 3,
+        "name": "Fahmid",
+        "picture": "https://randomuser.me/api/portraits/men/3.jpg",
+        "email": "fahmid@example.com",
+        "days_since_contact": 6,
+        "status": "almost due",
+        "tags": [
+            "neighbor",
+            "tech"
+        ],
+        "bio": "Expert in hardware and networking.",
+        "goal": 7,
+        "next_due_date": "2026-04-20"
+    },
+    {
+        "id": 4,
+        "name": "Sompod",
+        "picture": "https://randomuser.me/api/portraits/men/4.jpg",
+        "email": "sompod@example.com",
+        "days_since_contact": 20,
+        "status": "overdue",
+        "tags": [
+            "childhood friend"
+        ],
+        "bio": "Lives nearby, loves classic movies.",
+        "goal": 15,
+        "next_due_date": "2026-03-25"
+    },
+    {
+        "id": 5,
+        "name": "Mohsin",
+        "picture": "https://randomuser.me/api/portraits/men/5.jpg",
+        "email": "mohsin@example.com",
+        "days_since_contact": 1,
+        "status": "on-track",
+        "tags": [
+            "react developer",
+            "mentor"
+        ],
+        "bio": "Focused on mastering modern web stacks.",
+        "goal": 30,
+        "next_due_date": "2026-05-15"
+    },
+    {
+        "id": 6,
+        "name": "Jakariya",
+        "picture": "https://randomuser.me/api/portraits/men/6.jpg",
+        "email": "jakariya@example.com",
+        "days_since_contact": 8,
+        "status": "almost due",
+        "tags": [
+            "university",
+            "coding"
+        ],
+        "bio": "Always curious about new algorithms.",
+        "goal": 10,
+        "next_due_date": "2026-04-18"
+    },
+    {
+        "id": 7,
+        "name": "Ariful",
+        "picture": "https://randomuser.me/api/portraits/men/7.jpg",
+        "email": "ariful@example.com",
+        "days_since_contact": 4,
+        "status": "on-track",
+        "tags": [
+            "traveler",
+            "photographer"
+        ],
+        "bio": "Enjoys exploring the mountains of Sylhet.",
+        "goal": 20,
+        "next_due_date": "2026-05-01"
+    },
+    {
+        "id": 8,
+        "name": "Nafis",
+        "picture": "https://randomuser.me/api/portraits/men/8.jpg",
+        "email": "nafis@example.com",
+        "days_since_contact": 25,
+        "status": "overdue",
+        "tags": [
+            "freelancer",
+            "designer"
+        ],
+        "bio": "Creative thinker with a minimalist style.",
+        "goal": 21,
+        "next_due_date": "2026-03-10"
+    },
+    {
+        "id": 9,
+        "name": "Rihad",
+        "picture": "https://randomuser.me/api/portraits/men/9.jpg",
+        "email": "rihad@example.com",
+        "days_since_contact": 3,
+        "status": "on-track",
+        "tags": [
+            "gaming",
+            "college"
+        ],
+        "bio": "Pro gamer and hardware enthusiast.",
+        "goal": 5,
+        "next_due_date": "2026-04-28"
+    },
+    {
+        "id": 10,
+        "name": "Bijoy",
+        "picture": "https://randomuser.me/api/portraits/men/10.jpg",
+        "email": "bijoy@example.com",
+        "days_since_contact": 7,
+        "status": "almost due",
+        "tags": [
+            "wordpress",
+            "e-commerce"
+        ],
+        "bio": "Specializes in building online stores.",
+        "goal": 12,
+        "next_due_date": "2026-04-19"
+    },
+    {
+        "id": 11,
+        "name": "Emon",
+        "picture": "https://randomuser.me/api/portraits/men/11.jpg",
+        "email": "emon@example.com",
+        "days_since_contact": 0,
+        "status": "on-track",
+        "tags": [
+            "music",
+            "guitarist"
+        ],
+        "bio": "A passionate musician and lead guitarist.",
+        "goal": 7,
+        "next_due_date": "2026-05-12"
+    },
+    {
+        "id": 12,
+        "name": "Ruhul",
+        "picture": "https://randomuser.me/api/portraits/men/12.jpg",
+        "email": "ruhul@example.com",
+        "days_since_contact": 40,
+        "status": "overdue",
+        "tags": [
+            "study buddy",
+            "math expert"
+        ],
+        "bio": "Loves solving complex math riddles.",
+        "goal": 25,
+        "next_due_date": "2026-02-28"
+    }
+]
