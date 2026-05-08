@@ -2,7 +2,7 @@
     {
         "id": 1,
         "name": "Juwel",
-        "picture": "https://randomuser.me/api/portraits/men/1.jpg",
+        "picture": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=500",
         "email": "juwel@example.com",
         "days_since_contact": 15,
         "status": "overdue",
@@ -17,7 +17,7 @@
     {
         "id": 2,
         "name": "Somun",
-        "picture": "https://randomuser.me/api/portraits/men/2.jpg",
+        "picture": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?q=80&w=500",
         "email": "somun@example.com",
         "days_since_contact": 2,
         "status": "on-track",
@@ -32,7 +32,7 @@
     {
         "id": 3,
         "name": "Fahmid",
-        "picture": "https://randomuser.me/api/portraits/men/3.jpg",
+        "picture": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?q=80&w=500",
         "email": "fahmid@example.com",
         "days_since_contact": 6,
         "status": "almost due",
@@ -47,7 +47,7 @@
     {
         "id": 4,
         "name": "Sompod",
-        "picture": "https://randomuser.me/api/portraits/men/4.jpg",
+        "picture": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=500",
         "email": "sompod@example.com",
         "days_since_contact": 20,
         "status": "overdue",
@@ -61,7 +61,7 @@
     {
         "id": 5,
         "name": "Mohsin",
-        "picture": "https://randomuser.me/api/portraits/men/5.jpg",
+        "picture": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?q=80&w=500",
         "email": "mohsin@example.com",
         "days_since_contact": 1,
         "status": "on-track",
@@ -76,7 +76,7 @@
     {
         "id": 6,
         "name": "Jakariya",
-        "picture": "https://randomuser.me/api/portraits/men/6.jpg",
+        "picture": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?q=80&w=500",
         "email": "jakariya@example.com",
         "days_since_contact": 8,
         "status": "almost due",
@@ -91,7 +91,7 @@
     {
         "id": 7,
         "name": "Ariful",
-        "picture": "https://randomuser.me/api/portraits/men/7.jpg",
+        "picture": "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?q=80&w=500",
         "email": "ariful@example.com",
         "days_since_contact": 4,
         "status": "on-track",
@@ -106,7 +106,7 @@
     {
         "id": 8,
         "name": "Nafis",
-        "picture": "https://randomuser.me/api/portraits/men/8.jpg",
+        "picture": "https://images.unsplash.com/photo-1531427186611-ecfd6d936c79?q=80&w=500",
         "email": "nafis@example.com",
         "days_since_contact": 25,
         "status": "overdue",
@@ -121,7 +121,7 @@
     {
         "id": 9,
         "name": "Rihad",
-        "picture": "https://randomuser.me/api/portraits/men/9.jpg",
+        "picture": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?q=80&w=500",
         "email": "rihad@example.com",
         "days_since_contact": 3,
         "status": "on-track",
@@ -136,7 +136,7 @@
     {
         "id": 10,
         "name": "Bijoy",
-        "picture": "https://randomuser.me/api/portraits/men/10.jpg",
+        "picture": "https://images.unsplash.com/photo-1504257432389-52343af06ae3?q=80&w=500",
         "email": "bijoy@example.com",
         "days_since_contact": 7,
         "status": "almost due",
@@ -151,7 +151,7 @@
     {
         "id": 11,
         "name": "Emon",
-        "picture": "https://randomuser.me/api/portraits/men/11.jpg",
+        "picture": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?q=80&w=500",
         "email": "emon@example.com",
         "days_since_contact": 0,
         "status": "on-track",
@@ -166,7 +166,7 @@
     {
         "id": 12,
         "name": "Ruhul",
-        "picture": "https://randomuser.me/api/portraits/men/12.jpg",
+        "picture": "https://images.unsplash.com/photo-1513956589380-bad6acb9b9d4?q=80&w=500",
         "email": "ruhul@example.com",
         "days_since_contact": 40,
         "status": "overdue",

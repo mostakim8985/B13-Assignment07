@@ -5,7 +5,7 @@ export const metadata = {
 
 const Stats = () => {
     return (
-        <div>
+        <div className='h-screen'>
             <p>this is stats</p>
         </div>
     );
