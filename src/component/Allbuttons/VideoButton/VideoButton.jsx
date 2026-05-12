@@ -2,6 +2,7 @@
 import { useButton } from '@/app/context/ButtonContext';
 import React from 'react';
 import { IoMdVideocam } from 'react-icons/io';
+import { toast } from 'react-toastify';
 
 
 
@@ -16,6 +17,7 @@ const VideoButton = ({ user }) => {
 
 
         setNotify([...notify, newUser])
+        toast(`Video ${user.name}`)
     }
     return (
         <div>

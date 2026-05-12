@@ -3,6 +3,7 @@ import React from 'react';
 import { useButton } from '@/app/context/ButtonContext';
 import { BiSolidPhoneCall } from 'react-icons/bi';
 import { MdOutlineMessage } from 'react-icons/md';
+import { toast } from 'react-toastify';
 
 
 
@@ -19,6 +20,7 @@ const TextButton = ({ user }) => {
 
 
         setNotify([...notify, newUser])
+        toast(`Text ${user.name}`)
     }
     console.log(notify);
     return (

@@ -2,6 +2,7 @@
 import { useButton } from '@/app/context/ButtonContext';
 import React from 'react';
 import { BiSolidPhoneCall } from 'react-icons/bi';
+import { toast } from 'react-toastify';
 
 
 
@@ -10,7 +11,7 @@ const CallButton = ({ user }) => {
     const { notify, setNotify } = useButton();
     const callButtonHandle = (user) => {
 
-       const newUser = {
+        const newUser = {
             message: `${user.name}`,
             time: new Date().toLocaleTimeString(),
 
@@ -19,6 +20,7 @@ const CallButton = ({ user }) => {
 
 
         setNotify([...notify, newUser])
+        toast(`Called ${user.name}`)
 
     }
 
