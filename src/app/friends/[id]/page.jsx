@@ -54,7 +54,7 @@ const page = async ({ params }) => {
                 </div>
             </div>
             <div className='space-y-5'>
-                <div className='flex md:hidden justify-between gap-6 sm:gap-4 items-center'>
+                <div className='flex md:hidden sm:flex-row flex-col justify-between gap-6 sm:gap-4 items-center'>
                     <div className='text-center flex shadow-md rounded-md flex-col bg-white p-4'>
                         <span className='sm:text-3xl text-gray-600 text-xl font-bold'>{user.days_since_contact}</span>
                         <span className='sm:text-[18px] capitalize font-semibold text-[16px] text-gray-500'>days since contact</span>
@@ -83,7 +83,7 @@ const page = async ({ params }) => {
                 <div className='shadow-md rounded-md space-y-4 bg-white p-4'>
                     <h2 className='text-xl font-medium text-gray-600'>Quick Check-In</h2>
 
-                    <div className='grid gap-6 grid-cols-3'>
+                    <div className='grid gap-6 grid-cols-1 sm:grid-cols-3'>
                         <CallButton user={user}></CallButton>
                         <TextButton user={user}></TextButton>
                         <VideoButton user={user}></VideoButton>

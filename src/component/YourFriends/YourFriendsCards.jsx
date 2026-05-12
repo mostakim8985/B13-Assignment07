@@ -23,7 +23,7 @@ const YourFriendsCards = ({ items }) => {
                     <h3 className='text-xl font-semibold'>{items.name}</h3>
                     <span className='text-[12px] font-medium text-gray-400'>{items.days_since_contact}d ago</span>
                     <div className='space-x-2'>
-                        <span className='badge capitalize text-[14px] font-semibold badge-error my-2'>{items.tags[0]}</span>
+                        <span className='badge capitalize text-[14px] font-semibold badge-error my-2'>{items.tags[1]}</span>
                         
                     </div>
                     <span className={`badge text-[14px] capitalize font-semibold ${items.status === 'overdue' ? 'badge-info' : items.status === 'on-track' ? 'badge-secondary' : items.status === 'almost due' ? 'badge-primary' : ''}`}>{items.status}</span>
