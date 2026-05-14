@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Heroinfo = async ({friendsData}) => {
-    const data = await friendsData();
+    const data = friendsData;
     return (
         <div>
             <div className='grid grid-cols-2 sm:grid-cols-4 container mx-auto  gap-6'>

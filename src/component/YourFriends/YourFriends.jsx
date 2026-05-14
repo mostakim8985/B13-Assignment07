@@ -2,8 +2,8 @@
 import React, { Suspense, use } from 'react';
 import YourFriendsCards from './YourFriendsCards';
 
-const YourFriends = async ({friendsData}) => {
-    const data = await friendsData();
+const YourFriends =  ({friendsData}) => {
+    const data = friendsData;
     
     
     
