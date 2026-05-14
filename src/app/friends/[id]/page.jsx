@@ -9,12 +9,13 @@ import { FaArchive, FaHistory } from 'react-icons/fa';
 import CallButton from '@/component/Allbuttons/CallButton/CallButton';
 import TextButton from '@/component/Allbuttons/TextButton/TextButton';
 import VideoButton from '@/component/Allbuttons/VideoButton/VideoButton';
+import fData from '../../../../public/data.json';
 
 
 const page = async ({ params }) => {
     const { id } = await params;
-    const res = await fetch('http://localhost:3000/data.json');
-    const allUsers = await res.json();
+    const res = fData;
+    const allUsers = res;
 
     const user = allUsers.find((users) => users.id === parseInt(id));
 
