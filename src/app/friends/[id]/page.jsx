@@ -21,7 +21,7 @@ const page = async ({ params }) => {
 
 
     return (
-        <div className='flex flex-col sm:px-4 md:px-6 container gap-20 justify-center items-start md:items-center  my-20 mx-auto'>
+        <div className='flex flex-col sm:flex-row sm:px-4 md:px-6 container gap-20 justify-center items-start md:items-center  my-20 mx-auto'>
             <div className='flex space-y-10 flex-col justify-center items-center'>
                 <div className="card bg-white w-full shadow-sm">
                     <figure className="px-10 pt-10">
@@ -54,7 +54,7 @@ const page = async ({ params }) => {
                 </div>
             </div>
             <div className='space-y-5'>
-                <div className='flex md:hidden sm:flex-row flex-col justify-between gap-6 sm:gap-4 items-center'>
+                <div className='hidden md:flex sm:flex-row flex-col justify-between gap-6 sm:gap-4 items-center'>
                     <div className='text-center flex shadow-md rounded-md flex-col bg-white p-4'>
                         <span className='sm:text-3xl text-gray-600 text-xl font-bold'>{user.days_since_contact}</span>
                         <span className='sm:text-[18px] capitalize font-semibold text-[16px] text-gray-500'>days since contact</span>
@@ -75,7 +75,7 @@ const page = async ({ params }) => {
                 </div>
                 <div className='flex items-start shadow-md rounded-md bg-white p-4 justify-between'>
                     <div className='space-y-4 '>
-                        <h4 className='text-xl font-medium text-gray-700'>Relationship Goal</h4>
+                        <h4 className='text-xl sm:text-2xl font-medium text-gray-700'>Relationship Goal</h4>
                         <span className='text-gray-600 text-[14px]'>Connect every <span className='text-[16px] font-medium'>30 days</span></span>
                     </div>
                     <button className='btn'>Edit</button>
@@ -91,7 +91,7 @@ const page = async ({ params }) => {
 
                 </div>
 
-                <div className='bg-white block md:hidden sm:hidden rounded-md shadow-md p-4'>
+                <div className='bg-white hidden sm:block rounded-md shadow-md p-4'>
                     <div className='flex items-center justify-between'>
                         <h3 className='font-bold text-xl text-gray-700'>Recent Interaction</h3>
                         <span className='btn'><FaHistory /> Full History</span>

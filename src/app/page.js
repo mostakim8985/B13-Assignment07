@@ -1,11 +1,13 @@
 import Banner from '@/component/Banner/Banner';
 import Heroinfo from '@/component/HeroInformation/Heroinfo';
 import YourFriends from '@/component/YourFriends/YourFriends';
-import React, { use } from 'react';
+import React, { cache, use } from 'react';
+export const dynamic = "force-dynamic";
 
 const friendsData = async function () {
   const res = await fetch('http://localhost:3000/data.json');
   const data = res.json();
+  cache: "no-store"
   return data;
 }
 
