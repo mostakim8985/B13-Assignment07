@@ -5,8 +5,8 @@ import React, { cache, use } from 'react';
 export const dynamic = "force-dynamic";
 
 const friendsData = async function () {
-  const res = await fetch('http://localhost:3000/data.json');
-  const data = res.json();
+  const res = await fetch('/data.json');
+  const data = await res.json();
   cache: "no-store"
   return data;
 }
